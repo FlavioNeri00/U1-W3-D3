@@ -21,7 +21,7 @@ const taskMaker = (taskEvent) => {
 };
 
 function myFunction(id) {
-  var oRow = document.getElementById(id);
+  let oRow = document.getElementById(id);
   oRow.remove();
   let s = newTasks.findIndex((a) => a === id);
   console.log(s);
